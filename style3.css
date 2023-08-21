@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main_field{
+    width: 800px;
+    height: 500px;
+    background: #33d9b2;
+    margin: 30px auto;
+    display: flex;
+    align-items: center; 
+}
+.whitebox{
+    width: 700px;
+    height: 450px;
+    background: #fff;  
+    margin: 50px auto;
+    display: flex;
+    flex-direction:row ;
+    gap: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.team1{
+    width: 50%;
+    height: calc(450px - 10px);
+    background: #33d9b2;
+    position: relative;
+}
+.team2{
+    width: 50%;
+    height: calc(450px - 10px);
+    background: #33d9b2;
+    position: relative;
+}
+.goalpost1{
+    width: 50px;
+    height: 100px;
+    background: #fff; 
+    position: absolute;
+    top: 169px;
+    bottom: 70px;
+}
+.gk{
+    width: 40px;
+    height: 40px;
+    background: #4e09d8; 
+    position: absolute;
+    top: 191px;
+    left: 70px;
+}
+.gk{
+    width: 30px;
+    height: 30px;
+    background: #40407a; 
+    position: absolute;
+    top: 191px;
+    left: 70px;
+}
+.lb{
+    width: 30px;
+    height: 30px;
+    background: #40407a; 
+    position: absolute;
+    top: 29px;
+    left: 135px;
+}
+.rb{
+    width: 30px;
+    height: 30px;
+    background: #40407a; 
+    position: absolute;
+    bottom: 38px;
+    left: 135px;
+}
+.cb1{
+    width: 30px;
+    height: 30px;
+    background: #40407a; 
+    position: absolute;
+    top: 111px;
+    left: 114px;
+}
+.cb2{
+    width: 30px;
+    height: 30px;
+    background: #40407a; 
+    position: absolute;
+    top: 264px;
+    left: 114px;
+}
+.lm{
+    width: 30px;
+    height: 30px;
+    background: #40407a; 
+    position: absolute;
+    top: 57px;
+    left: 314px;
+}
+.rm{
+    width: 30px;
+    height: 30px;
+    background: #40407a; 
+    position: absolute;
+    top: 359px;
+    left: 314px;
+}
+.dm1{
+    width: 30px;
+    height: 30px;
+    background: #40407a; 
+    position: absolute;
+    top: 111px;
+    left: 251px;
+}
+.dm2{
+    width: 30px;
+    height: 30px;
+    background: #40407a; 
+    position: absolute;
+    top: 264px;
+    left: 251px;
+}
+.goalpost2{
+    width: 50px;
+    height: 100px;
+    background: #fff; 
+    position: absolute;
+    top: 169px;
+    left: 294px;
+}
+.st1{
+    width: 30px;
+    height: 30px;
+    background: #40407a; 
+    position: absolute;
+    top: 106px;
+    left: 158px;
+}
+.st2{
+    width: 30px;
+    height: 30px;
+    background: #40407a; 
+    position: absolute;
+    top: 285px;
+    left: 140px;
+}
+.text{ 
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(230, 223, 223);  
+    text-align: center;
+    padding-top: 5px;
+}
